@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-        App app = new App();
-        app.connect();
+        DBConn dbConn = new DBConn();
+        dbConn.connect();
     }
 }
