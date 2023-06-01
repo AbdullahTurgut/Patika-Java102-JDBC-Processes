@@ -37,7 +37,7 @@ public class Main {
 //        list.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println); // tersten sıralar
 //        list.stream().limit(5L).forEach(System.out::println); // limit ile 5 elemanı bastırabiliriz
 //        list.stream().skip(3).limit(5).forEach(System.out::println); // 3 eleman atla ve 5 eleman bastır
-        long c = list.stream().filter(num -> num < 40).distinct().count(); // 40 dan küçük 4 eleman var
+            long c = list.stream().filter(num -> num < 40).distinct().count(); // 40 dan küçük 4 eleman var
 
         boolean control = list.stream().anyMatch(i -> i == 25); // eşleşen var mı -> true döner
 
