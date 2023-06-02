@@ -7,3 +7,8 @@ out/
 *.iml
 *.ipr
 *.iws
+
+##############################
+## Quiz Örneklemeleri
+##############################
+src/QuizSoruları

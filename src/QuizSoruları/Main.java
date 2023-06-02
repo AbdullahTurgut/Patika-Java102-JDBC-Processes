@@ -1,4 +1,4 @@
-package DiffScannerStream;
+package QuizSoruları;
 
 import java.io.File;
 import java.io.FileNotFoundException;
